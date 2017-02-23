@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Arbitro</ion-title>
+         <ion-buttons start>
+      <button (click)="log_out()">
+         <ion-icon name="log-out"></ion-icon>
+      </button>
+     </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+   
+   <ion-list>  
+    
+    <ion-item (click)="nextPage(1)">
+      <ion-icon name='clipboard' item-left></ion-icon>
+      Captura de Resultados
+    </ion-item>
+  
+     
+    <ion-item (click)="nextPage(2)">
+      <ion-icon name='notifications' item-left></ion-icon>
+      Notificaciones
+      <ion-note item-right>
+      {{notificaciones}}
+      </ion-note>
+    </ion-item>
+
+    <ion-item (click)="nextPage(3)">
+      <ion-icon name='create' item-left></ion-icon>
+      Protestas
+    </ion-item>
+   
+   </ion-list>
+
+</ion-content>

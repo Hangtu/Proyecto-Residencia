@@ -1,0 +1,11 @@
+{
+  "name": "Cotapp",
+  "description": "Aplicacion para la captura de resultados de los juegos nacionales de voleiball",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.0.0"
+  }
+}
